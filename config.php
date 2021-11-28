@@ -22,7 +22,7 @@ $CFG->dataroot  = getenv('DATAROOT');
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;
-// $CFG->getremoteaddrconf = 0;
+$CFG->getremoteaddrconf = 0;
 
 require_once(__DIR__ . '/lib/setup.php');
 
